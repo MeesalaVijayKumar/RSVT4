@@ -531,24 +531,28 @@
 	.a{
 		font-size: 100%;
 		margin-top: 5rem;
-		padding: 0.7rem;
+		margin-left: 0.5rem;
+		padding: 0%;
 
 	}
 	.b{
 		font-size: 100%;
 		margin-top: 5rem;
-		padding: 0.7rem;
+		margin-left: 0.5rem;
+		padding: 0%;
 	}
 	.c{
 		font-size: 100%;
 		margin-top: 5rem;
-		padding: 0.7rem;
+		margin-left: 0.5rem;
+		padding: 0%;
 
 	}
 	.d{
 		font-size: 100%;
 		margin-top: 7rem;
-		padding: 0.7rem;
+		margin-left: 0.5rem;
+		padding: 0%;
 
 	}
 	/*
@@ -602,5 +606,3 @@
 	}
 
  }
-
-

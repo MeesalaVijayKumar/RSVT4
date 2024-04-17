@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sanofi</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <button onclick="pdf()" id="but">Print PDF</button>
+    <!-- TITLE -->
+    <div class="content">
+      <h1>RSVT</h1>
+    </div>
+    <!--RSVT-->
+
+      <div class="RSVT">
+        <p onmouseover="showPopup1(event)" onmouseout="hidePopup()">RSVT(Header Work plan)</p>
+      </div>
+
+    <div class="container">
+        <div class="col1">
+          <div class="WPS"><p onmouseover="showPopup2(event)" onmouseout="hidePopup()">Workplan System</p></div>
+          <div class="WPS1">
+            <p onmouseover="showPopup2(event)" onmouseout="hidePopup()">Stage A<br />Estimated Time : <br />Estimated Time Unit :</p>
+          </div>
+        </div>
+
+        <div class="c1">
+          <h1 class="a">&#8594;</h1>
+        </div>
+
+        <div class="col2">
+          <div class="HO" ><p onmouseover="showPopup3(event)" onmouseout="hidePopup()">Header Operations</p></div>
+          <div class="HO1">
+            <p onmouseover="showPopup3(event)" onmouseout="hidePopup()">Stage B<br />Estimated Time : <br />Estimated Time Unit :</p>
+          </div>
+        </div>
+
+        <div class="c4">
+          <h1 class="a">&#8594;</h1>
+          <h1 class="b">&#8594;</h1>
+          <h1 class="c">&#8594;</h1>
+          <h1 class="d">&#8594;</h1>
+        </div>
+        
+
+        <div class="col3">
+            <div class="GO" ><p onmouseover="showPopup4(event)" onmouseout="hidePopup()">General Operations</p></div>
+            
+            <div class="GO1" ><p onmouseover="showPopup4(event)" onmouseout="hidePopup()">Cell Culture Preparation step<br>Estimated Time :<br>Estimated Time Unit :</p></div>
+            <div class="GO1"><p onmouseover="showPopup4(event)" onmouseout="hidePopup()">Culture Phase<br>Estimated Time : <br>Estimated Time Unit :</p></div>
+            <div class="GO1"><p onmouseover="showPopup4(event)" onmouseout="hidePopup()">Trypsine Citrate Solution Preparation<br>Estimated Time :<br>Estimated Time Unit :</p></div>
+            <div class="GO1"><p onmouseover="showPopup4(event)" onmouseout="hidePopup()">Media removal before trypsinization<br>Estimated Time :<br>Estimated Time Unit :</p></div>
+        </div>
+
+        <div class="c4">
+          <h1 class="a">&#8592;</h1>
+          <h1 class="b">&#8592;</h1>
+          <h1 class="c">&#8592;</h1>
+        </div>
+    
+        <div class="col4">
+          <div class="M"><p onmouseover="showPopup5(event)" onmouseout="hidePopup()">Materials</p></div>
+          <div class="M1"><p onmouseover="showPopup5(event)" onmouseout="hidePopup()">Vero Growth Medium</p></div>
+          <div class="M1"><p onmouseover="showPopup5(event)" onmouseout="hidePopup()">Pipettes</p></div>
+          <div class="M1"><p onmouseover="showPopup5(event)" onmouseout="hidePopup()">2*Innoculation bottles</p></div>
+        </div>
+
+        <div class="c4">
+          <h1 class="a">&#8592;</h1>
+          <h1 class="b">&#8592;</h1>
+          <h1 class="c">&#8592;</h1>
+          <h1 class="d">&#8592;</h1>
+        </div>
+
+        <div class="col5">
+          <div class="PE"><p onmouseover="showPopup6(event)" onmouseout="hidePopup()">Parameters & Equipments</p></div>
+          <div class="PE1"><p onmouseover="showPopup6(event)" onmouseout="hidePopup()">Bioreactor skid BIO0001<br />Bioreactor skid BIO0002</p></div>
+          <div class="PE1"><p onmouseover="showPopup6(event)" onmouseout="hidePopup()">Bioreactor skid BIO0002</p></div>
+          <div class="PE1"><p onmouseover="showPopup6(event)" onmouseout="hidePopup()">Bioreactor skid BIO0002</p></div>
+          <div class="PE4"><p onmouseover="showPopup6(event)" onmouseout="hidePopup()">Duration(Ucarries settling+supernatant removal)<br />Param Value:<br />Param Min Value: <br />Param Max Value: <br />Param Criticality : <br />Param Unit : <br /><br /><br />Remaining Volume : <br />Param Value : 32.0<br />Param Min Value : <br />Param Max Value : <br />Param Criticality : KPP <br />Param Unit :</p></div>
+        </div>
+    </div>
+
+    <!-- Popup container -->
+
+    <!--<div id="popup-window" class="hidden">This is the popup window content</div>-->
+    <!--popup for RSVT-->
+    <div id="i" class="popup">
+      <div class="z">
+      <div class="header">
+          <h1 class="title">Header Work plan</h1>
+      </div>
+      <div class="details">
+          <div class="detail"><b>Type:</b> Header Workplan</div>
+          <div class="detail"><b>Revision:</b> 1</div>
+          <div class="detail"><b>Maturity State:</b> In Work</div>
+          <div class="detail"><b>Owner:</b> Admin Platform</div>
+      </div>
+      </div>
+    </div>
+    <!--popup for WPS-->
+    <div id="j" class="popup">
+      <div class="z">
+      <div class="header">
+          <h1 class="title">Workplan System</h1>
+      </div>
+      <div class="details">
+          <div class="detail"><b>Type:</b> Workplan System</div>
+          <div class="detail"><b>Revision:</b> 1</div>
+          <div class="detail"><b>Maturity State:</b> In Work</div>
+          <div class="detail"><b>Owner:</b> Admin Platform</div>
+      </div>
+      </div>
+    </div>
+    
+    <!--popup for HO -->
+    <div id="k" class="popup">
+      <div class="z">
+      <div class="header">
+          <h1 class="title">Header Operations</h1>
+      </div>
+      <div class="details">
+          <div class="detail"><b>Type:</b> Header Operations</div>
+          <div class="detail"><b>Revision:</b> 1</div>
+          <div class="detail"><b>Maturity State:</b> In Work</div>
+          <div class="detail"><b>Owner:</b> Admin Platform</div>
+      </div>
+      </div>
+    </div>
+   
+    <!--popup for GO-->
+    <div id="l" class="popup">
+      <div class="z">
+      <div class="header">
+          <h1 class="title">General Operations</h1>
+      </div>
+      <div class="details">
+          <div class="detail"><b>Type:</b> General Operations</div>
+          <div class="detail"><b>Revision:</b> 1</div>
+          <div class="detail"><b>Maturity State:</b> In Work</div>
+          <div class="detail"><b>Owner:</b> Admin Platform</div>
+      </div>
+      </div>
+    </div>
+    
+    <!--popup for M-->
+    <div id="m" class="popup">
+      <div class="z">
+      <div class="header">
+          <h1 class="title">Materials</h1>
+      </div>
+      <div class="details">
+          <div class="detail"><b>Type:</b> Materials</div>
+          <div class="detail"><b>Revision:</b> 1</div>
+          <div class="detail"><b>Maturity State:</b> In Work</div>
+          <div class="detail"><b>Owner:</b> Admin Platform</div>
+      </div>
+      </div>
+    </div>
+    
+    <!--popup for PE    -->
+
+    <div id="n" class="popup">
+      <div class="z">
+      <div class="header">
+          <h1 class="title">Parameters & Equipments</h1>
+      </div>
+      <div class="details">
+          <div class="detail"><b>Type:</b> Parameters & Equipments</div>
+          <div class="detail"><b>Revision:</b> 1</div>
+          <div class="detail"><b>Maturity State:</b> In Work</div>
+          <div class="detail"><b>Owner:</b> Admin Platform</div>
+      </div>
+      </div>
+    </div>
+  
+</div>
+
+
+<!--java script-->
+<script>
+  // Function to show the popup
+  function showPopup1(event) {
+      var popup = document.getElementById("i");
+      popup.style.display = "block";
+      popup.style.top = (event.clientY + 10) + "px"; // Position the popup below the mouse cursor
+      popup.style.left = (event.clientX + 10) + "px"; // Position the popup slightly to the right of the mouse cursor
+  }
+  // Function to show the popup
+  function showPopup2(event) {
+    var popup = document.getElementById("j");
+    popup.style.display = "block";
+    popup.style.top = (event.clientY + 10) + "px"; // Position the popup below the mouse cursor
+    popup.style.left = (event.clientX + 10) + "px"; // Position the popup slightly to the right of the mouse cursor
+}
+  // Function to show the popup
+  function showPopup3(event) {
+    var popup = document.getElementById("k");
+    popup.style.display = "block";
+    popup.style.top = (event.clientY + 10) + "px"; // Position the popup below the mouse cursor
+    popup.style.left = (event.clientX + 10) + "px"; // Position the popup slightly to the right of the mouse cursor
+  }
+  // Function to show the popup
+  function showPopup4(event) {
+    var popup = document.getElementById("l");
+    popup.style.display = "block";
+    popup.style.top = (event.clientY + 10) + "px"; // Position the popup below the mouse cursor
+    popup.style.left = (event.clientX + 10) + "px"; // Position the popup slightly to the right of the mouse cursor
+  }
+  // Function to show the popup
+  function showPopup5(event) {
+    var popup = document.getElementById("m");
+    popup.style.display = "block";
+    popup.style.top = (event.clientY + 10) + "px"; // Position the popup below the mouse cursor
+    popup.style.left = (event.clientX + 10) + "px"; // Position the popup slightly to the right of the mouse cursor
+  }
+  // Function to show the popup
+  function showPopup6(event) {
+    var popup = document.getElementById("n");
+    popup.style.display = "block";
+    popup.style.top = (event.clientY + 10) + "px"; // Position the popup below the mouse cursor
+    popup.style.left = (event.clientX - 40) + "px"; // Position the popup slightly to the right of the mouse cursor
+    
+
+  }
+  // Function to hide the popup
+  function hidePopup() {
+      var popup = document.getElementById("i");
+      popup.style.display = "none";
+      var popup = document.getElementById("j");
+      popup.style.display = "none";
+      var popup = document.getElementById("k");
+      popup.style.display = "none";
+      var popup = document.getElementById("l");
+      popup.style.display = "none";
+      var popup = document.getElementById("m");
+      popup.style.display = "none";
+      var popup = document.getElementById("n");
+      popup.style.display = "none";
+  }
+  // Function to print the document
+  function pdf() {
+    window.print();
+  } 
+</script>
+
+
+  </body>

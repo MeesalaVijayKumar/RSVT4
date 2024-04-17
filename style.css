@@ -16,7 +16,7 @@
 
 
 /*for desktop screen CSS*/	
-@media only screen and (min-device-width: 768px) and (max-device-width: 1980px){
+	  @media all and  (max-width:3000px){
 
 
 
@@ -313,7 +313,7 @@
 }
 
 /*for mobile screen CSS*/
-@media only screen and (min-device-width: 300px) and (max-device-width: 760px){
+@media  (min-width:100px) and (max-width:900px){
 	.container{
 		display: flex;
 		justify-content: space-evenly;
